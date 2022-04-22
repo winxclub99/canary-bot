@@ -20,8 +20,8 @@ export default new Command({
             });
         }
 
-        const personKissed = interaction.options.getMentionable("target");
-        const kissTitle = ["A kiss!", "A big kiss!", "Surprise! A kiss!", "Kiss!"];
+        const personKissed = interaction.options.getMentionable("username");
+        const kissTitle = ["A kiss!", "A big kiss!", "Surprise! A kiss!", "Kiss!", "Mwah!"];
         const kissMessage = [
             `${interaction.user} gave ${personKissed} a kiss!`,
             `${interaction.user} kissed ${personKissed} :heart:`,

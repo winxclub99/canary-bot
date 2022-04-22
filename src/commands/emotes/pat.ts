@@ -20,7 +20,7 @@ export default new Command({
             });
         }
 
-        const personPet = interaction.options.getMentionable("target");
+        const personPet = interaction.options.getMentionable("username");
         const petMessage = [
             `${interaction.user} gave ${personPet} headpats!`,
             `${interaction.user} pet ${personPet} :heart:`,

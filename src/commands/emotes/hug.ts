@@ -20,7 +20,7 @@ export default new Command({
             });
         }
 
-        const personHugged = interaction.options.getMentionable("target");
+        const personHugged = interaction.options.getMentionable("username");
         const hugTitle = ["A hug!", "A big hug!", "Surprise! A hug!", "Hug! :heart:"];
         const hugMessage = [
             `${interaction.user} gave ${personHugged} a hug!`,
