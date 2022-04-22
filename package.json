@@ -14,12 +14,8 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "@discordjs/opus": "0.6.0",
-        "axios": "^0.26.1",
-        "discord-player": "^5.2.2",
         "discord.js": "^13.5.0",
         "dotenv": "^10.0.0",
-        "ffmpeg-static": "^5.0.0",
         "glob": "^7.2.0"
     },
     "devDependencies": {
